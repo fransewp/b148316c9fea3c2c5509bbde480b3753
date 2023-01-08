@@ -1,0 +1,23 @@
+{
+    "authors": [
+        {
+            "name": "Fransisco Edo"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Vendor\\": "vendor/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.2",
+        "vlucas/phpdotenv": "^5.5",
+        "friendsofphp/php-cs-fixer": "^1.11",
+        "predis/predis": "^2.0",
+        "bshaffer/oauth2-server-php": "^1.10"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7"
+    }
+}
