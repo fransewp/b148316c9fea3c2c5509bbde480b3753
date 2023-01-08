@@ -37,6 +37,9 @@ Docker Compose configuration to run PHP 7.4 with Nginx, PHP-FPM, PostgreSQL 15 a
 ### Alter Table Postgress Manualy
     Run database.sql in [APP_PATH]/database.sql
 
+### Rename .env.example
+    Create new file with name .env and copy file .env.example to .env
+
 
 ## Flow System Design
 ```
