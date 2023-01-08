@@ -23,22 +23,17 @@ Docker Compose configuration to run PHP 7.4 with Nginx, PHP-FPM, PostgreSQL 15 a
 
 ## How to use it
 ### Composer
-Run composer install:
-    ```composer
     composer install
-    ```
+    
 ### Starting Docker Build
-    ```docker
     docker-compose build
-    ```
+
 ### Starting Docker Compose
-    ```docker
     docker-compose up -d
-    ```
+
 ### Run Application
-    ```php
     php -S localhost:8080 -t .
-    ```
+
 ### Alter Table Postgress Manualy
     Run database.sql in [APP_PATH]/database.sql
 
@@ -133,4 +128,3 @@ Run composer install:
     <td>Retrieve email log and check if saved in cache. if saved in cache then get from chace. If not then query from database.</td>
   </tr>
 </table>
-# b148316c9fea3c2c5509bbde480b3753
