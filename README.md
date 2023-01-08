@@ -9,7 +9,7 @@ Docker Compose configuration to run PHP 7.4 with Nginx, PHP-FPM, PostgreSQL 15 a
 
 ## Overview
 * Web (Nginx)
-* PHP (PHP 7.4 with PHP-FPM)
+* PHP (PHP 8.0 with PHP-FPM)
 * DB (PostgreSQL 15)
 * Composer
 * Redis
@@ -19,7 +19,7 @@ Docker Compose configuration to run PHP 7.4 with Nginx, PHP-FPM, PostgreSQL 15 a
 * [Docker CE](https://docs.docker.com/engine/installation/)
 * [Docker Compose](https://docs.docker.com/compose/install)
 * [Postgres]
-* [PHP 7.0 or Higher]
+* [PHP 8.0 or Higher]
 
 ## How to use it
 ### Composer
